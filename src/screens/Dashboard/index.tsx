@@ -1,10 +1,11 @@
-import  * as React from 'react';
-import {  Container, Title } from './style';
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import { Container, Title } from './style';
 
 export function Dashboard() {
     return (
         <Container>
-            <Title>Dashboard</Title>
+            <Title>Dashboard 5</Title>
         </Container>
     );
 }
